@@ -3,6 +3,7 @@
 There're n sections in a line numbered from 1 to n.
 
 There're q soliders, for i_th solider, he can guard from section L_i to R_i (1<=i<=q)
+
 A section is guarded if at least one solider guard the section.
 
 You can only hire q-2 soliders. 
