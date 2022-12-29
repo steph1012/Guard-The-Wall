@@ -24,6 +24,9 @@ You need to find the maximum number of sections that can be quarded by hiring q-
 # solution 
   1. calculate each section has how many guard
   2. enumerate if we take off one guard:
+    
     a. -1 on the section that the gurad have
+  
     b. for the section which only 1 guard do prefix fum
+    
     c. enumerate the array to find the next guard we choose the remove will decrease the minimum section (checking on prefix sum can get O(1))
